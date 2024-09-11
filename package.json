@@ -1,0 +1,10 @@
+{
+  "name": "central-information",
+  "version": "0.1.0",
+  "scripts": {
+    "lint": "npx prettier . --write"
+  },
+  "devDependencies": {
+    "prettier": "3.3.3"
+  }
+}
