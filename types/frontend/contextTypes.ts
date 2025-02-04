@@ -1,5 +1,6 @@
 import Permission from "../permissions";
 import { AxiosError } from "axios";
+import { MainWebsiteRole } from "../mainWebsiteRole";
 
 export type RequiredPermissions = Permission[] | null;
 export type CustomError = AxiosError | Error | null;
@@ -33,16 +34,4 @@ export interface IUser {
   is_superuser: boolean;
   created_at: string;
   team_role: MainWebsiteRole;
-}
-
-export enum MainWebsiteRole {
-  DoNotDisplay,
-  Advisor,
-  Coordinator,
-  Columnist,
-  Designer,
-  Photographer,
-  Illustrator,
-  Developer,
-  Alumni,
 }
