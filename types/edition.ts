@@ -1,4 +1,4 @@
-export const enum EditionStatus {
+export enum EditionStatus {
   // hidden till restored
   Draft = 0,
   // published to main website
@@ -8,11 +8,12 @@ export const enum EditionStatus {
 }
 
 export interface IEdition {
+  _id: string;
   name: string;
   edition_id: number;
   status: EditionStatus;
   edition_link: string;
-  published_at: string;
-  createdAt: string;
-  updatedAt: string;
+  published_at?: string;
+  createdAt?: string;
+  updatedAt?: string;
 }
