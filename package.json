@@ -5,6 +5,13 @@
     "lint": "npx prettier . --write"
   },
   "devDependencies": {
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
     "prettier": "3.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "mongoose": "^8.9.6",
+    "react-router-dom": "^7.1.5"
   }
 }
