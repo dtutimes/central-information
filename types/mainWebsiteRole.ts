@@ -1,4 +1,5 @@
 export enum MainWebsiteRole {
+  DoNotDisplay = 0,
   Advisor = 1,
   Coordinator = 2,
   Columnist = 3,
